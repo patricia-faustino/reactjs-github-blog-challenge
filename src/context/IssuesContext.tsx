@@ -2,11 +2,7 @@ import { ReactNode, useCallback, useEffect, useState } from 'react';
 import { api } from '../lib/axios';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as zod from 'zod';
-import {
-  useForm,
-  UseFormHandleSubmit,
-  UseFormRegister,
-} from 'react-hook-form';
+import { useForm, UseFormHandleSubmit, UseFormRegister } from 'react-hook-form';
 import {
   mapApiResponseToIssues,
   mapApiResponseToProfile,
