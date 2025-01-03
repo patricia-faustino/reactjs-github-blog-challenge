@@ -56,17 +56,17 @@
     └── README.md
 
 ## Funcionalidades
-- Listagem de Issues
-A aplicação lista as issues disponíveis no repositório do GitHub. Cada issue possui um título, descrição, data de criação e um link para a issue no GitHub.
+- Listagem de Issues:
+   A aplicação lista as issues disponíveis no repositório do GitHub. Cada issue possui um título, descrição, data de criação e um link para a issue no GitHub.
 
-- Buscar Issues
-O usuário pode buscar issues por palavras-chave. A busca é realizada na API do GitHub e os resultados são exibidos na aplicação.
+- Buscar Issues:
+   O usuário pode buscar issues por palavras-chave. A busca é realizada na API do GitHub e os resultados são exibidos na aplicação.
 
-- Exibir Detalhes da Issue
-Ao clicar em uma issue, o usuário é redirecionado para uma página de detalhes onde pode ver a descrição completa da issue.
+- Exibir Detalhes da Issue:
+   Ao clicar em uma issue, o usuário é redirecionado para uma página de detalhes onde pode ver a descrição completa da issue.
 
-- Navegação
-A aplicação utiliza o React Router para navegação entre as páginas de listagem de issues e detalhes da issue.
+- Navegação:
+   A aplicação utiliza o React Router para navegação entre as páginas de listagem de issues e detalhes da issue.
 
 ## Conceitos Utilizados
 
