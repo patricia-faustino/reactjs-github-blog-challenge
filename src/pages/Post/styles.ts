@@ -1,5 +1,8 @@
 import styled from 'styled-components';
-import { InfoDefaultContainer, PageDefaultContainer } from '../../styles/PagesDefault';
+import {
+  InfoDefaultContainer,
+  PageDefaultContainer,
+} from '../../styles/PagesDefault';
 
 export const PostContainer = styled(PageDefaultContainer)``;
 
