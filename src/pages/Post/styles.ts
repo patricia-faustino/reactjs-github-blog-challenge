@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import { PageDefaultContainer } from '../../styles/PagesDefault';
 
-export const PostContainer = styled(PageDefaultContainer)`
-`;
+export const PostContainer = styled(PageDefaultContainer)``;
 
 export const InfoPostContainer = styled.div`
   display: flex;
