@@ -1,12 +1,8 @@
 import { styled } from 'styled-components';
+import { InfoDefaultContainer } from '../../../../styles/PagesDefault';
 
-export const ProfileContainer = styled.div`
-  display: flex;
-  width: 54rem;
+export const ProfileContainer = styled(InfoDefaultContainer)`
   height: 13.25rem;
-  background-color: ${(props) => props.theme['base-profile']};
-  border-radius: 10px;
-  padding: 2rem;
   gap: 2rem;
   color: ${(props) => props.theme['text-primary']};
 `;

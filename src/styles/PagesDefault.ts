@@ -30,3 +30,11 @@ export const PageDefaultContainer = styled.div`
   width: 100vw;
   align-items: center;
 `;
+
+export const InfoDefaultContainer = styled.div`
+  display: flex;
+  width: 54rem;
+  background-color: ${(props) => props.theme['base-main']};
+  border-radius: 10px;
+  padding: 2rem;
+`;
