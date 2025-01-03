@@ -6,7 +6,6 @@ import {
   useForm,
   UseFormHandleSubmit,
   UseFormRegister,
-  UseFormReset,
 } from 'react-hook-form';
 import {
   mapApiResponseToIssues,
