@@ -10,7 +10,7 @@ function App() {
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
 
-      <BrowserRouter>
+      <BrowserRouter basename="reactjs-github-blog-challenge">
         <IssuesContextProvider>
           <Router />
         </IssuesContextProvider>
